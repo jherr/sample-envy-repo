@@ -1,0 +1,32 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "description": "Example Apollo server application using Envy",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "@graphql-tools/utils": "^10.0.6",
+    "@sanity/client": "^4.0.1",
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/node-fetch": "^2.6.9",
+    "body-parser": "^1.20.2",
+    "cors": "2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.0",
+    "groqd": "^0.15.9",
+    "node-fetch": "2"
+  },
+  "devDependencies": {
+    "@envyjs/node": "*",
+    "@envyjs/webui": "*",
+    "@types/cors": "2.8.14",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
